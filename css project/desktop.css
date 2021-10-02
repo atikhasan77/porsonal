@@ -1,0 +1,112 @@
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.logo{
+    text-align: left;
+}
+
+.navbar h2{
+    text-align: right;
+}
+
+.menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+
+
+
+
+.profile .top-icon{
+    
+    
+    right: 100px;
+    width: 180px;
+    
+    transition: width 2s transform 2s;
+
+
+}
+.profile .top-icon:hover{
+    width: 300px;
+    height: 200px;
+}
+
+.profile .bottom-icon{
+    
+    
+    left: 140px;
+    width: 180px;
+    
+    transition: width 2s transform 2s;
+
+
+}
+.profile .bottom-icon:hover{
+    width: 300px;
+    height: 200px;
+}
+
+/*profile end*/
+/*about st*/
+.imagecv{
+    margin-top: 100px;
+}
+.imagecv img{
+    height: 300px;
+    width: 300px;
+}
+.details p {
+    text-align: left;
+}
+/*professional style*/
+.professional{
+    padding: 1% 5%;
+}
+/*achivevement style*/
+.achivevement{
+    padding-right: 50px;
+}
+.contact button{
+    width: 150px;
+}
+.contact-skill{
+    position: relative;
+
+
+}
+.media-button{
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.footre-menu{
+    margin-top: 12px;
+
+}
+.footre-menu a{
+    display:inline;
+}
+
